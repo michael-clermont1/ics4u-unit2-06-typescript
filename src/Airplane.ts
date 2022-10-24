@@ -9,11 +9,11 @@
 class Airplane {
   private speed: number = 0
 
-  public setSpeed(speeds: number): void {
+  public setSpeed (speeds: number): void {
     this.speed = speeds
   }
 
-  public getSpeed(): number {
+  public getSpeed (): number {
     return this.speed
   }
 }
